@@ -4,7 +4,7 @@ const GITHUB_TOKEN = 'Perso'; // fallback for user-provided token
 // Helper function to make API requests
 async function githubApiRequest(endpoint, method = 'GET', body = null) {
     const headers = {
-        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Authorization': `token ${'11BEXJHNQ0ADzXPH9gd1jp_DvPF7XdRt5FChidstgIQmtsvUMtjoScx1uthdHxE53bAAAYYQNKRD1SyYLG'}`,
         'Accept': 'application/vnd.github.v3+json'
     };
     
