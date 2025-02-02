@@ -1,5 +1,5 @@
 // Import environment variables (only works in a local environment like Node.js)
-const GITHUB_TOKEN = 'Perso'; // fallback for user-provided token
+const GITHUB_TOKEN = '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'; // fallback for user-provided token
 
 // Helper function to make API requests
 async function githubApiRequest(endpoint, method = 'GET', body = null) {
