@@ -4,7 +4,7 @@ const GITHUB_TOKEN = 'YOUR_GITHUB_TOKEN_HERE'; // fallback for user-provided tok
 // Helper function to make API requests
 async function githubApiRequest(endpoint, method = 'GET', body = null) {
     const headers = {
-        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Authorization': `token ${"Nonoperso}`,
         'Accept': 'application/vnd.github.v3+json'
     };
     
